@@ -99,7 +99,7 @@ var verseList = [{
   text: 'Turn from evil and do good; seek peace and pursue it.'
 }, {
   ref: 'Isaiah 54:10',
-  text: 'Though the mountains be shaken and the hills be removed, yet my unfailing love for you will not be shaken nor my covenant of peace be removed,” says the LORD, who has compassion on you.'
+  text: '"Though the mountains be shaken and the hills be removed, yet my unfailing love for you will not be shaken nor my covenant of peace be removed,” says the LORD, who has compassion on you.'
 }, {
   ref: 'John 16:33',
   text: 'I have told you these things, so that in me you may have peace. In this world you will have trouble. But take heart! I have overcome the world.'
