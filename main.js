@@ -54,7 +54,7 @@ var verseList = [{
   text: 'For I am convinced that neither death nor life, neither angels nor demons, neither the present nor the future, nor any powers, neither height nor depth, nor anything else in all creation, will be able to separate us from the love of God that is in Christ Jesus our Lord.'
 }, {
   ref: 'Lamentations 3:22-23',
-  text: 'Because of the LORD’s great love we are not consumed, for his compassions never fail. They are new every morning; great is your faithfulness.'
+  text: 'Because of the LORD\’s great love we are not consumed, for his compassions never fail. They are new every morning; great is your faithfulness.'
 }, {
   ref: '1 Corinthians 16:13',
   text: 'Be on your guard; stand firm in the faith; be courageous; be strong.'
@@ -87,7 +87,7 @@ var verseList = [{
   text: 'And the peace of God, which transcends all understanding, will guard your hearts and your minds in Christ Jesus.'
 }, {
   ref: 'Proverbs 16:7',
-  text: 'When the LORD takes pleasure in anyone’s way, he causes their enemies to make peace with them.'
+  text: 'When the LORD takes pleasure in anyone\’s way, he causes their enemies to make peace with them.'
 }, {
   ref: 'Romans 12:18',
   text: 'If it is possible, as far as it depends on you, live at peace with everyone.'
@@ -114,7 +114,7 @@ var verseList = [{
   text: 'His pleasure is not in the strength of the horse, nor his delight in the legs of the warrior; the LORD delights in those who fear him, who put their hope in his unfailing love.'
 }, {
   ref: 'Jeremiah 29:11',
-  text: 'For I know the plans I have for you,” declares the LORD, “plans to prosper you and not to harm you, plans to give you hope and a future.'
+  text: 'For I know the plans I have for you, declares the LORD, plans to prosper you and not to harm you, plans to give you hope and a future.'
 }, ];
 var listLength = verseList.length;
 var verse = verseList[(Math.floor(Math.random() * listLength))];
