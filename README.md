@@ -1,2 +1,2 @@
-# verse-generator
-Generates a random verse upon refresh.
+# Bible Verse Generator
+Generates a random inspirational Bible verse upon refresh.
