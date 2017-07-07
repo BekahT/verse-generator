@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+
+
 body {
   background: #f4f4ec;
+  font-family: 'Tangerine', cursive;
+
 }
 
 h1 {
