@@ -8,15 +8,17 @@ body {
   background-size: 100%;
 }
 
+/* h1 #B0AEF5   h2 #C8F3FA */
+
 h1 {
-  border: 1px solid #B0AEF5;
+  border: 1px solid #debef4;
   border-radius: 3px;
   height: 200px;
   width: 600px;
   padding: 2%;
   position: relative;
   left: 50px;
-  background: #B0AEF5;
+  background: #debef4;
   text-align: center;
   font-size: 5rem;
   font-family: 'Tangerine', cursive;
@@ -24,14 +26,14 @@ h1 {
 }
 
 h2 {
-  border: 1px solid #C8F3FA;;
+  border: 1px solid #bff2f1;
   border-radius: 3px;
   width: 500px;
   padding: 2%;
   position: relative;
   left: 100px;
   top: -170px;
-  background: #C8F3FA;
+  background: #bff2f1;
   text-align: center;
   font-size: 1.5rem;
   font-family: 'Kurale', serif;
