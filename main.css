@@ -4,6 +4,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Montserrat";
+  background-size: auto;
 }
 
 h1 {
@@ -28,4 +29,6 @@ h2 {
     height: 35px;
     background-color: #e7e7e7;
     text-align: center;
+  margin: auto;
+  width: 80%;
 }
