@@ -148,18 +148,6 @@ $('#background-picker').change(function() {
   if ($(this).val() == 'Beach3') {
     $("body").css('background-image', 'url("Backgrounds/beach3.jpg")');
   }
-  if ($(this).val() == 'Beach4') {
-    $("body").css('background-image', 'url("Backgrounds/beach4.jpg")');
-  }
-  if ($(this).val() == 'Beach5') {
-    $("body").css('background-image', 'url("Backgrounds/beach5.jpg")');
-  }
-  if ($(this).val() == 'Beach6') {
-    $("body").css('background-image', 'url("Backgrounds/beach6.jpg")');
-  }
-  if ($(this).val() == 'Beach7') {
-    $("body").css('background-image', 'url("Backgrounds/beach7.jpg")');
-  }
   if ($(this).val() == 'Clouds') {
     $("body").css('background-image', 'url("Backgrounds/clouds.jpg")');
   }
@@ -172,23 +160,11 @@ $('#background-picker').change(function() {
   if ($(this).val() == 'Flowers3') {
     $("body").css('background-image', 'url("Backgrounds/flowers3.jpg")');
   }
-  if ($(this).val() == 'Flowers4') {
-    $("body").css('background-image', 'url("Backgrounds/flowers4.jpg")');
-  }
-  if ($(this).val() == 'Flowers5') {
-    $("body").css('background-image', 'url("Backgrounds/flowers5.jpg")');
-  }
-  if ($(this).val() == 'Garden') {
-    $("body").css('background-image', 'url("Backgrounds/garden.jpg")');
-  }
   if ($(this).val() == 'Jellyfish') {
     $("body").css('background-image', 'url("Backgrounds/jellyfish.jpg")');
   }
-  if ($(this).val() == 'Mountain1') {
-    $("body").css('background-image', 'url("Backgrounds/mountain1.jpg")');
-  }
-  if ($(this).val() == 'Mountain2') {
-    $("body").css('background-image', 'url("Backgrounds/mountain2.jpg")');
+  if ($(this).val() == 'Mountains') {
+    $("body").css('background-image', 'url("Backgrounds/mountains.jpg")');
   }
   if ($(this).val() == 'Railroad') {
     $("body").css('background-image', 'url("Backgrounds/railroad.jpg")');
@@ -197,10 +173,10 @@ $('#background-picker').change(function() {
     $("body").css('background-image', 'url("Backgrounds/road1.jpg")');
   }
   if ($(this).val() == 'Sunrise1') {
-    $("body").css('background-image', 'url("Backgrounds/Sunrise1.jpg")');
+    $("body").css('background-image', 'url("Backgrounds/sunrise1.jpg")');
   }
   if ($(this).val() == 'Sunrise2') {
-    $("body").css('background-image', 'url("Backgrounds/Sunrise2.jpg")');
+    $("body").css('background-image', 'url("Backgrounds/sunrise2.jpg")');
   }
 });
 
