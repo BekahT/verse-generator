@@ -116,8 +116,34 @@ var verseList = [{
   ref: 'Jeremiah 29:11',
   text: 'For I know the plans I have for you, declares the LORD, plans to prosper you and not to harm you, plans to give you hope and a future.'
 }, ];
+
+/* Verse Generator */
 var listLength = verseList.length;
 var verse = verseList[(Math.floor(Math.random() * listLength))];
 
 document.getElementById('reference').innerHTML = verse.ref;
 document.getElementById('text').innerHTML = verse.text;
+
+/* New Verse */
+$('#verse-picker').on('click', function(e) {
+  var verse = verseList[(Math.floor(Math.random() * listLength))];
+  document.getElementById('reference').innerHTML = verse.ref;
+  document.getElementById('text').innerHTML = verse.text;
+})
+
+/* Background Picker */
+$('#background-picker').change(function() {
+  if ($(this).val() == 'Bible1') {
+    $("body").css('background-image', 'url("Backgrounds/Bible1.jpeg")');
+  }
+  if ($(this).val() == 'Bible2') {
+    $("body").css('background-image', 'url("Backgrounds/Bible2.jpeg")');
+  }
+  if ($(this).val() == 'Bible3') {
+    $("body").css('background-image', 'url("Backgrounds/Bible3.jpeg")');
+  }
+  if ($(this).val() == 'Beach1') {
+    $("body").css('background-image', 'url("Backgrounds/PebbleBeach1.jpg")');
+  }
+});
+

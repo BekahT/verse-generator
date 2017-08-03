@@ -12,7 +12,8 @@
     <link rel="shortcut icon" type="image/png" href="bible.png" />
      <title>Bible Verse Generator</title>
 
-    <!-- Custom styles -->
+    <!-- CSS -->
+    <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
     <link href="main.css" rel="stylesheet">
 
 
@@ -34,19 +35,58 @@
 
 <body>
 
-    <div class="verseBox">
-        <h1>
+  <!-- Nav Bar Start-->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-book"></span> Bible Verse Generator</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a id="verse-picker"><span class="glyphicon glyphicon-refresh"></span> New Verse</a></li>
+          <li><a><span class="glyphicon glyphicon-picture"></span> Background <select id="background-picker" class="">
+                <option>Bible1</option>
+                <option>Bible2</option>
+                <option>Bible3</option>
+              </select></a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+  <!-- Nav Bar End-->
+  <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 text-center verseBox">
+    <h1>
             <div id="reference"></div>
         </h1>
-        <h2>
+    <h2>
             <div id="text"></div>
-        </h2>        
-    </div>
+        </h2>
+  </div>
 
-    <!-- JavaScript
+  <footer class="footer">
+      <div class="container">
+        <p class="text-muted">Thank you to <a href="https://unsplash.com/" target="_blank">Unsplash</a> for the beautiful backgrounds!</p>
+      </div>
+    </footer>
+
+  <!-- JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="main.js"></script>
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="bootstrap/jquery.min.js"></script>
+  <script src="bootstrap/bootstrap.min.js"></script>
+  <script src="main.js"></script>
+  
 </body>
 
 </html>
