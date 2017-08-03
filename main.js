@@ -134,10 +134,10 @@ $('#verse-picker').on('click', function(e) {
 /* Background Picker */
 $('#background-picker').change(function() {
   if ($(this).val() == 'Bible1') {
-    $("body").css('background-image', 'url("Backgrounds/bible1.jpg")');
+    $("body").css('background-image', 'url("Backgrounds/bible1.jpeg")');
   }
   if ($(this).val() == 'Bible2') {
-    $("body").css('background-image', 'url("Backgrounds/bible2.jpg")');
+    $("body").css('background-image', 'url("Backgrounds/bible2.jpeg")');
   }
   if ($(this).val() == 'Beach1') {
     $("body").css('background-image', 'url("Backgrounds/beach1.jpg")');
