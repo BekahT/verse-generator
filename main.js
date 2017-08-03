@@ -134,16 +134,73 @@ $('#verse-picker').on('click', function(e) {
 /* Background Picker */
 $('#background-picker').change(function() {
   if ($(this).val() == 'Bible1') {
-    $("body").css('background-image', 'url("Backgrounds/Bible1.jpeg")');
+    $("body").css('background-image', 'url("Backgrounds/bible1.jpeg")');
   }
   if ($(this).val() == 'Bible2') {
-    $("body").css('background-image', 'url("Backgrounds/Bible2.jpeg")');
-  }
-  if ($(this).val() == 'Bible3') {
-    $("body").css('background-image', 'url("Backgrounds/Bible3.jpeg")');
+    $("body").css('background-image', 'url("Backgrounds/bible2.jpeg")');
   }
   if ($(this).val() == 'Beach1') {
-    $("body").css('background-image', 'url("Backgrounds/PebbleBeach1.jpg")');
+    $("body").css('background-image', 'url("Backgrounds/beach1.jpg")');
+  }
+  if ($(this).val() == 'Beach2') {
+    $("body").css('background-image', 'url("Backgrounds/beach2.jpg")');
+  }
+  if ($(this).val() == 'Beach3') {
+    $("body").css('background-image', 'url("Backgrounds/beach3.jpg")');
+  }
+  if ($(this).val() == 'Beach4') {
+    $("body").css('background-image', 'url("Backgrounds/beach4.jpg")');
+  }
+  if ($(this).val() == 'Beach5') {
+    $("body").css('background-image', 'url("Backgrounds/beach5.jpg")');
+  }
+  if ($(this).val() == 'Beach6') {
+    $("body").css('background-image', 'url("Backgrounds/beach6.jpg")');
+  }
+  if ($(this).val() == 'Beach7') {
+    $("body").css('background-image', 'url("Backgrounds/beach7.jpg")');
+  }
+  if ($(this).val() == 'Clouds') {
+    $("body").css('background-image', 'url("Backgrounds/clouds.jpg")');
+  }
+  if ($(this).val() == 'Flowers1') {
+    $("body").css('background-image', 'url("Backgrounds/flowers1.jpg")');
+  }
+  if ($(this).val() == 'Flowers2') {
+    $("body").css('background-image', 'url("Backgrounds/flowers2.jpg")');
+  }
+  if ($(this).val() == 'Flowers3') {
+    $("body").css('background-image', 'url("Backgrounds/flowers3.jpg")');
+  }
+  if ($(this).val() == 'Flowers4') {
+    $("body").css('background-image', 'url("Backgrounds/flowers4.jpg")');
+  }
+  if ($(this).val() == 'Flowers5') {
+    $("body").css('background-image', 'url("Backgrounds/flowers5.jpg")');
+  }
+  if ($(this).val() == 'Garden') {
+    $("body").css('background-image', 'url("Backgrounds/garden.jpg")');
+  }
+  if ($(this).val() == 'Jellyfish') {
+    $("body").css('background-image', 'url("Backgrounds/jellyfish.jpg")');
+  }
+  if ($(this).val() == 'Mountain1') {
+    $("body").css('background-image', 'url("Backgrounds/mountain1.jpg")');
+  }
+  if ($(this).val() == 'Mountain2') {
+    $("body").css('background-image', 'url("Backgrounds/mountain2.jpg")');
+  }
+  if ($(this).val() == 'Railroad') {
+    $("body").css('background-image', 'url("Backgrounds/railroad.jpg")');
+  }
+  if ($(this).val() == 'Road') {
+    $("body").css('background-image', 'url("Backgrounds/road1.jpg")');
+  }
+  if ($(this).val() == 'Sunrise1') {
+    $("body").css('background-image', 'url("Backgrounds/Sunrise1.jpg")');
+  }
+  if ($(this).val() == 'Sunrise2') {
+    $("body").css('background-image', 'url("Backgrounds/Sunrise2.jpg")');
   }
 });
 
