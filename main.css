@@ -33,3 +33,15 @@ h2 {
   background: #76e2f4;
   text-align: center;
 }
+
+a#verse-picker {
+  cursor: pointer;
+}
+
+select#background-picker {
+  cursor: pointer;
+}
+
+a {
+  cursor: default;
+}
