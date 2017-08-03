@@ -29,3 +29,15 @@ h2 {
     background-color: #e7e7e7;
     text-align: center;
 }
+
+a#verse-picker {
+  cursor: pointer;
+}
+
+select#background-picker {
+  cursor: pointer;
+}
+
+a {
+  cursor: default;
+}
