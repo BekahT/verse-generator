@@ -115,7 +115,7 @@ var verseList = [{
 }, {
   ref: 'Jeremiah 29:11',
   text: 'For I know the plans I have for you, declares the LORD, plans to prosper you and not to harm you, plans to give you hope and a future.'
-}, ];
+},];
 
 /* Verse Generator */
 var listLength = verseList.length;
@@ -125,14 +125,19 @@ document.getElementById('reference').innerHTML = verse.ref;
 document.getElementById('text').innerHTML = verse.text;
 
 /* New Verse */
-$('#verse-picker').on('click', function(e) {
+$('#verse-picker').on('click', function (e) {
+  $('.fa-refresh').addClass('fa-spin');
+  setTimeout(function () {
+    $('.fa-refresh').removeClass('fa-spin');
+  }, 1000);
+
   var verse = verseList[(Math.floor(Math.random() * listLength))];
   document.getElementById('reference').innerHTML = verse.ref;
   document.getElementById('text').innerHTML = verse.text;
 })
 
 /* Background Picker */
-$('#background-picker').change(function() {
+$('#background-picker').change(function () {
   if ($(this).val() == 'Bible1') {
     $("body").css('background-image', 'url("Backgrounds/bible1.jpg")');
   }
